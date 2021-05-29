@@ -31,4 +31,9 @@ transform: scale(1.1) skew(6deg, 9deg);
   background-color: green;
 
 }
+.photo img{
+  height:90%;
+  width:80%;
+  margin-top: 5px;
+}
 

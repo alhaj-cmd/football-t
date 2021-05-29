@@ -30,7 +30,7 @@ console.log(teamId);
                 </Container>
 
             </Jumbotron>
-            <div className="container-at d-flex">
+            <div className="container-at p-2 d-flex">
                  <div className="col-md-6">
 
                      <h5>Team:{teams.idTeam}</h5>
@@ -39,8 +39,8 @@ console.log(teamId);
                      <p>Sports Type:{teams.strSport}</p>
                 </div>
 
-                 <div className=" col-md-6">
-                     <img className="float-right" src={teams.strTeamBanner} alt="" />
+                 <div className="photo col-md-6">
+                     <img className=" float-right" src={teams.strTeamBanner} alt="" />
                  </div>
              </div>
 
